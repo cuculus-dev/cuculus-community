@@ -1,0 +1,20 @@
+labels: [Ideas]
+body:
+  - type: textarea
+    attributes:
+      label: 要望/アイデアの概要
+      description: 要望やアイデアの内容を簡潔に説明してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 利点
+      description: この要望やアイデアが実現することによって得られるメリットや利点を挙げてください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: その他
+      description: その他、要望やアイデアに関連する情報やコメントがあれば記入してください。
+    validations:
+      required: false
